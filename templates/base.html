@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>coder.uz</title>
+</head>
+<body>
+    <header>
+        <a href="{% url 'home' %}"> Bosh Sahifa</a>
+        <a href="{%  url 'about' %}"> Sayitimiz haqida</a>
+        <a href="{%  url 'login' %}"> LOgin</a>
+        <a href="{%  url 'regester' %}"> regester</a>
+    </header>
+    {% block content %}
+
+    {% endblock content %}
+</body>
+</html>
